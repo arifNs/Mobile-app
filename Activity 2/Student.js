@@ -33,7 +33,9 @@ class Students{
         console.log(`Matric No. : ${this.matricNo}`);
         console.log(`Majoring : ${this.major}`);
         process.exit()
+        
         //will print 'undefined' unless include process.exit()
+        //process.exit() can be used either here or on the import file (main.js)
     }
 }
 
